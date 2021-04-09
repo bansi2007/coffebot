@@ -13,9 +13,9 @@ logging.basicConfig(
 
 # Initializes your app with your bot token and signing secret
 app = App(
-    token= "xoxb-1841992677271-1862685122226-5rnAxutlsO692YSvPLHxTrHa",
+    token= "\\your slack_bot_token",
     #get_config("slack_bot_token"),
-    signing_secret= "cdd55d0250e7c32e194edcaed0a03a7c"
+    signing_secret= "\\your slack_signing_secret"
     #get_config("slack_signing_secret")
 )
 
